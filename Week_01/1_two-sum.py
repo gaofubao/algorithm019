@@ -3,7 +3,6 @@
 # https://leetcode-cn.com/problems/two-sum/
 
 
-
 class Solution1:
     """
     暴力枚举
@@ -16,7 +15,6 @@ class Solution1:
             for j in range(i+1, len(nums)):
                 if nums[i] + nums[j] == target:
                     return [i, j]
-
 
 class Solution2:
     """

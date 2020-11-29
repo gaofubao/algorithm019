@@ -6,6 +6,7 @@ class Solution1:
     def merge(self, nums1, m, nums2, n) -> None:
         """
         Do not return anything, modify nums1 in-place instead.
+        Python 列表内置方法
         """
         nums1[:] = sorted(nums1[:m] + nums2)
 
